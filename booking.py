@@ -8,6 +8,7 @@ import datetime
 
 ##Airhostから宿泊者情報(.xls)をダウンロードするスクリプト. 基本的に編集しない.
 ##パスワードなどの変更があった時のみ変更
+##morezouはFirefoxユーザなので、webdriberに注意.
 def get_xls():
     driver = webdriver.Firefox()
     driver.get('https://cloud.airhost.co/ja/bookings')
