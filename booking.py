@@ -6,6 +6,11 @@ import openpyxl
 import pyexcel
 import datetime
 
+## 各モジュールのインストールが必要
+## pip3 install <module_name>　のようにしてインストール
+## 以下、要インストールモジュール
+##　selenium, openpyxl, pyexcel, pyexcel-xls,  pyexcel-xlsx
+
 ##Airhostから宿泊者情報(.xls)をダウンロードするスクリプト. 基本的に編集しない.
 ##パスワードなどの変更があった時のみ変更
 ##morezouはFirefoxユーザなので、webdriberに注意.
